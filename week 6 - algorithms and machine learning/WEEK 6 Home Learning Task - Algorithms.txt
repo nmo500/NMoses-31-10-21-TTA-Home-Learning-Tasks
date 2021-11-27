@@ -1,0 +1,260 @@
+HOME LEARNING TASK WEEK 6 - MACHINE LEARNING
+ 
+Select one or more choices from the list of common Machine Learning Algorithms, do some investigations and write me a short summary. 
+
+I am looking for the following:
+
+• Is it Supervised/Unsupervised/Reinforcement learning?
+• What does the algorithm do?
+• In which situations will it be most useful?
+• (Optional) Can you find any examples of where this algorithm has been used
+
+
+• Linear Regression
+
+WHETHER SUPERVISED / UNSUPERVISED OR REINFORCEMENT LEARNING
+- based on supervised learning
+
+WHAT THE ALGORITHM DOES 
+- The algorithm performs a regression task - it predicts a dependent variable value (y) based on a given independent variable (x). It is used to estimate the relationship between two quantitative variables. You can use simple linear regression when you want to know:
+
+
+SITUATIONS IN WHICH IT WILL BE MOST USEFUL
+
+- Linear regression is useful for finding the relationship between two continuous variables. One is the predictor or independent variable (e.g. number of hours of study) and other is the response or dependent variable (e.g. exam score). 
+
+- Linear Regression can be used to find: 
+
+   - how strong the relationship is between two variables (e.g. the relationship between rainfall and soil erosion). 
+
+  - The value of the dependent variable at a certain value of the independent variable (e.g. the amount of soil erosion at a certain level of rainfall).
+
+
+EXAMPLES OF WHERE THIS ALGORITHM HAS BEEN USED 
+
+- It could be used to predict future sales (e.g. if we discount our product by x% we will increase sales by y%) and is used in medicine (e.g. give various doses of medicine to patients and observe how their blood pressure responds).
+
+
+
+
+
+• Logistic Regression
+
+WHETHER SUPERVISED / UNSUPERVISED OR REINFORCEMENT LEARNING
+
+- Logistic regression is a supervised learning algorithm because it uses true labels for training.
+
+
+WHAT THE ALGORITHM DOES 
+
+- Logistic regression can help predict the likelihood of events by looking at historical data points. For example, it can predict whether an individual will win the election or whether it’ll rain today.
+-  The algorithm is used to predict the outcome of a dependent variable based on previous observations. It's a type of regression analysis and is a commonly used algorithm for solving binary classification problems.
+- The algorithm predicts the probability of a target variable / outcome.
+
+
+SITUATIONS IN WHICH IT WILL BE MOST USEFUL
+
+- it is useful for solving classification problems (often binary), e.g. spam /not spam, dog, cat or lampost
+
+
+EXAMPLES OF WHERE THIS ALGORITHM HAS BEEN USED 
+
+- It is used for various classification problems such as spam detection, Diabetes prediction, cancer detection etc. It is also used in fraud detection for credit cards (e.g. based on the date of transaction, amount, location, is it fraud / not fraud).
+
+
+
+
+
+• Decision Tree
+
+WHETHER SUPERVISED / UNSUPERVISED OR REINFORCEMENT LEARNING
+
+- This is a supervised learning technique.
+
+
+WHAT THE ALGORITHM DOES 
+
+- The algorithm partitions the data into subsets. The partitioning process starts with a binary split and continues until no further splits can be made. Various branches of variable length are formed.
+
+
+SITUATIONS IN WHICH IT WILL BE MOST USEFUL
+
+- A Decision Tree creates a training model that can be used to predict the class or value of the target variable by learning simple decision rules inferred from prior data (training data).
+
+- It is useful for a graphical representation for getting all the possible solutions to a problem/decision based on given conditions.
+
+- Decision trees can be used either for classification (for example, to determine the category for an observation), or for prediction (for example, to estimate the numeric value). Using a decision tree for classification is an alternative methodology to logistic regression. Using a decision tree for prediction is an alternative method to linear regression.
+
+- A decision tree can also be used to identify Target Groups. If you are looking for the best potential customers for a product, you can identify the terminal nodes in the tree that have the highest percentage of sales, and focus your sales effort on individuals described by those nodes.
+
+- Similar to graphs, decision trees for exploratory analysis of large data sets can help you detect and visualise relationships and patterns in much larger sets of variables. 
+
+
+EXAMPLES OF WHERE THIS ALGORITHM HAS BEEN USED 
+
+- Decision trees can be used to analyse insurance claims, e.g. they might show that theft claims are more likely on repossessed homes in higher income areas. The tree diagrams will clearly show you how claims are segmented across different variables. The larger the number of variables, the more valuable is the exploration using decision trees.
+
+
+
+
+• SVM (Support Vector Machine)
+
+WHETHER SUPERVISED / UNSUPERVISED OR REINFORCEMENT LEARNING
+- SVM is supervised learning.
+
+
+WHAT THE ALGORITHM DOES 
+
+- The algorithm correctly classifies unseen data learning by example to assign labels to objects. For instance, an SVM can learn to recognise fraudulent credit card activity by examining hundreds or thousands of fraudulent and nonfraudulent credit card activity reports. Alternatively, an SVM can learn to recognize handwritten digits by examining a large collection of scanned images of handwritten zeroes, ones and so forth. SVM uses a technique called the kernel trick to transform data and then, based on these transformations, it finds an optimal boundary between the possible outputs.
+
+
+SITUATIONS IN WHICH IT WILL BE MOST USEFUL
+
+- SVM can be used for classification (distinguishing between several groups or classes) and regression (obtaining a mathematical model to predict something). They can be applied to both linear and non linear problems. It is good for small data sets or when a number of features are high compared to a number of data points in the dataset.
+
+EXAMPLES OF WHERE THIS ALGORITHM HAS BEEN USED 
+
+- Some uses of SVM include:
+  - Face detection – SVMs can classify parts of the image as a face and non-face and create a square boundary around the face.
+
+  - Classification of images – Use of SVMs provides better search accuracy for image classification. It provides better accuracy in comparison to the traditional query-based searching techniques.
+
+  - Handwriting recognition – SVMs are used to recognise handwritten characters.
+
+  - A biomedical application of support vector machines is the automatic classification of microarray gene expression profiles. Theoretically, an SVM can examine the gene expression profile derived from a tumor sample or from peripheral fluid and arrive at a diagnosis or prognosis. 
+
+
+
+
+• Naive Bayes
+
+
+WHETHER SUPERVISED / UNSUPERVISED OR REINFORCEMENT LEARNING
+
+- It is classed as supervised learning.
+
+
+WHAT THE ALGORITHM DOES 
+- This algorithm is used for solving classification problems.  It works on Bayes theorem of probability to predict the class of unknown data sets.
+
+
+SITUATIONS IN WHICH IT WILL BE MOST USEFUL
+
+- The Naive Bayes classification algorithm is a probabilistic classifier. It is based on probability models that incorporate strong independence assumptions.  Naive Bayes is called naive because it assumes that each input variable is independent. It assumes that each feature makes an independent, equal contribution to the outcome.  While this does not reflect the real situation, the outcome of Naive Bayes is generally successful.
+
+- Naive Bayes is suitable for solving multi-class prediction problems. If its assumption of the independence of features holds true, it can perform better than other models and requires much less training data. Naive Bayes is better suited for categorical input variables than numerical variables.
+
+
+EXAMPLES OF WHERE THIS ALGORITHM HAS BEEN USED 
+
+- Real life examples of the Naive Bayes algorithm are:
+  - Marking an email as spam, or not spam; 
+  - Classifying a news article about technology, politics, or sports;
+  - Checking if a piece of text expresses positive or negative emotions.
+
+
+
+
+• KNN (K- Nearest Neighbours)
+
+
+WHETHER SUPERVISED / UNSUPERVISED OR REINFORCEMENT LEARNING
+- KNN is a supervised classification algorithm.
+
+
+WHAT THE ALGORITHM DOES 
+
+- KNN works on a principle assuming every data point falling in near to each other is falling in the same class. It uses a database in which the data points are separated into several classes to predict the classification of a new sample point. Basically, the algorithm stores all available cases and classifies any new cases by taking a majority vote of its k neighbors. The case is then assigned to the class with which it has the most in common. A distance function performs this measurement.
+
+
+SITUATIONS IN WHICH IT WILL BE MOST USEFUL
+
+- KNN is used for pattern recognition tasks of non-linear data and is used for classification as well as regression.  It can be used for multiclass classification, i.e. if you are required to classify the data in more than two categories.
+
+EXAMPLES OF WHERE THIS ALGORITHM HAS BEEN USED 
+
+- Real life uses of KNN include:
+
+  - Credit ratings — collecting financial characteristics vs. comparing people with similar financial features to a database. By the very nature of a credit rating, people who have similar financial details would be given similar credit ratings. Therefore, they would like to be able to use this existing database to predict a new customer’s credit rating, without having to perform all the calculations.
+
+  - Banks deciding whether to give a loan to an individual. To decide if an individual would default on his or her loan KNN is used to decide if that person is closer in characteristics to people who defaulted or did not default on their loans.
+
+  - In political science, potential voters can be classified as “will vote” or “will not vote”, or to “vote x" or “vote y”.
+
+  - More advance examples could include handwriting detection (like OCR), image recognition and even video recognition. 
+
+
+
+
+
+• K-Means
+
+WHETHER SUPERVISED / UNSUPERVISED OR REINFORCEMENT LEARNING
+
+- K-Means clustering is an unsupervised learning algorithm,so it makes inferences from datasets using only input vectors without referring to known, or labelled, outcomes.	
+
+
+WHAT THE ALGORITHM DOES 
+
+- The algorithm groups similar data points together and discovers underlying patterns. To achieve this objective, K-means looks for a fixed number (k) of clusters in a dataset. The user defines the target number k, which refers to the number of centroids you need in the dataset. A centroid is the imaginary or real location representing the centre of the cluster. Every data point is allocated to each of the clusters through reducing the in-cluster sum of squares. In other words, the K-means algorithm identifies k number of centroids, and then allocates every data point to the nearest cluster, while keeping the centroids as small as possible.The ‘means’ in the K-means refers to averaging of the data; that is, finding the centroid.
+
+
+SITUATIONS IN WHICH IT WILL BE MOST USEFUL
+
+- K-Means is used when you have unlabeled data (i.e. data without defined categories or groups). It can typically be applied to data that has a smaller number of dimensions, is numeric, and is continuous, for example if you want to make groups of similar things from a randomly distributed collection of things.
+- K-Means can be used to confirm business assumptions about what types of groups exist or to identify unknown groups in complex data sets. Once the algorithm has been run and the groups are defined, any new data can be easily assigned to the correct group.
+
+
+EXAMPLES OF WHERE THIS ALGORITHM HAS BEEN USED 
+
+1. Identifying Fake News - it has been used to identify fake news based on the content.
+ 
+The way that the algorithm works is by taking in the content of the fake news article, the corpus, examining the words used and then clustering them. These clusters are what helps the algorithm determine which pieces are genuine and which are fake news. Certain words are found more commonly in sensationalised, click-bait articles. When you see a high percentage of specific terms in an article, it gives a higher probability of the material being fake news. 
+
+2. Customer segmentation - companies can identify groups of customers with similar profiles, and use these to target and personalise their communications.
+
+
+
+• Random Forest
+
+
+WHETHER SUPERVISED / UNSUPERVISED OR REINFORCEMENT LEARNING
+
+- This is supervised learning. 
+
+
+WHAT THE ALGORITHM DOES 
+
+A random forest algorithm creates a random sample of multiple decision trees and merges them together to obtain a more stable and accurate prediction through cross validation. In general, the more trees in the forest, the more robust would be the prediction and thus higher accuracy.
+
+It is a machine learning technique that’s used to solve regression and classification problems. It utilizes ensemble learning, which is a technique that combines many classifiers to provide solutions to complex problems.
+
+A random forest algorithm consists of many decision trees. The ‘forest’ generated by the random forest algorithm is trained through bootstrap aggregating (or 'bagging'). "Bagging" is an ensemble meta-algorithm that improves the accuracy of machine learning algorithms.
+
+The (random forest) algorithm establishes the outcome based on the predictions of the decision trees. It predicts by taking the average or mean of the output from various trees. Increasing the number of trees increases the precision of the outcome.
+
+A random forest eradicates the limitations of a decision tree algorithm. It reduces the overfitting of datasets and increases precision. It generates predictions without requiring many configurations in packages (like scikit-learn).
+
+
+SITUATIONS IN WHICH IT WILL BE MOST USEFUL
+
+The Random Forest algorithm is suitable for situations when there is a large dataset, and interpretability is not a major concern. 
+
+
+EXAMPLES OF WHERE THIS ALGORITHM HAS BEEN USED 
+
+Banking
+Random forest is used in banking to predict the creditworthiness of a loan applicant. This helps the lending institution make a good decision on whether to give the customer the loan or not. Banks also use the random forest algorithm to detect fraudsters.
+
+Health care
+Health professionals use random forest systems to diagnose patients. Patients are diagnosed by assessing their previous medical history. Past medical records are reviewed to establish the right dosage for the patients.
+
+Stock market
+Financial analysts use it to identify potential markets for stocks. It also enables them to identify the behaviour of stocks.
+
+E-commerce
+Through random forest algorithms, e-commerce vendors can predict the preference of customers based on past consumption behaviour.
+
+
+ 
+
