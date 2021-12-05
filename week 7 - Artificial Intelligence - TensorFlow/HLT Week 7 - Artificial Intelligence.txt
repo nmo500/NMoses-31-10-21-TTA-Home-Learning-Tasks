@@ -1,0 +1,78 @@
+Compulsory HLT - Week 7 - Artificial Intelligence
+
+
+
+WHAT IS RESPONSIBLE AI?
+
+With the aim of making the implementation of AI ethical and accountable, Responsible AI means making AI systems transparent, fair, secure and inclusive.  There is also debate on whether responsible AI systems can address biases (explicit or implicit) to ensure equity in predictive decisions, particularly when applied to employment, health care, financial services and criminal justice.  
+
+
+
+INSTANCES WHERE AI HAS FAILED OR BEEN USED MALICIOUSLY / INCORRECTLY 
+	
+1 - Microsoft used an AI chatbot (called TAY - 'Thinking About You') to test and improve their understanding of natural language, with the aim that in future, TAY could use its AI skills to learn from interactions for better conversations in the future.  Within 24 hours, TAY had to be turned off because Twitter users had began to target the vulnerabilities of the bot, thereby manipulating it to learn sexist and racist sentiments.   
+
+2 - Amazon tried to use AI to streamline the way it processed job applications, building a system to automatically find top candidates.  Because they trained their machine learning on resumes overwhelmingly from men, the algorithm learned this pattern and determined that women were not suited to technical roles.  This unfair bias meant that the process was not gender neutral.  
+
+3 - An Uber using AI to create a driverless car knocked over and killed a pedestrian because the AI only classified an object as a pedestrian if it was near a crosswalk. 
+
+4 - Deepfakes are an example of AI being used for manipulative purposes.  This involves the use of AI techniques to craft or manipulate audio and visual content, allowing fakers to create videos of people saying whatever the fakers wish.  A UK-based energy firm was duped into transferring nearly £200,000 to a Hungarian bank account after a malicious individual used deepfake audio technology to impersonate the voice of the firm’s CEO in order to authorise the payments. 
+
+5 - Cybercriminals are employing AI to improve algorithms for guessing users’ passwords, as well using it to fool on-line verification systems used to validate customer indentity.
+
+6 - AI has also been used to support disinformation campaigns, stoking social unrest and political Forpolarisation. For example, deepfakes can be used to cause confusion and spread political misinformation.
+ 
+
+IMPLICATIONS OF WHEN AI FAILS (THERE IS A SPECIFIC ARTICLE IN THE GDPR LAW THAT COVERS THIS, ESPECIALLY WITH AUTOMATED DECISION MAKING (OPT IN AND OUT OPTIONS).)
+
+
+- IMPLICATIONS OF AI FAILURE:
+
+   - Criminals using AI to accelerate and automate hacking may lead to serious consequences for cyber security, leading to mass security issues. 
+
+   - The misuse of AI has been linked to concerns of a new AI-enabled terrorism, from the expansion of autonomous drones and the introduction of robotic swarms to remote attacks or the delivery of disease through nanorobots.
+ 
+   - AI Bias - Since AI algorithms are built by humans, they can have built-in bias by those who either intentionally or inadvertently introduce them into the algorithm. If AI algorithms are built with a bias or the data in the training sets they are given to learn from is biased, they will produce results that are biased. This reality could lead to unintended consequences like the ones we have seen with discriminatory recruiting algorithms and Microsoft’s Twitter chatbot that became racist. As companies build AI algorithms, they need to be developed and trained responsibly.
+
+
+- OTHER CONCERNS 
+
+   - There are concerns that many of these AI systems are "black boxes," where inputs go in and solutions come out, without humans understanding how the solutions are created.  This gives the neural networks a lot of freedom to behave unexpectedly.  
+
+   -  If AI surpasses humanity in general intelligence and becomes "superintelligent", then there are concerns that it could become difficult or impossible for humans to control. Concerns have also been expressed that AI could replace the entire human workforce.
+
+
+- AI and GDPR
+This data protection law establishes that people have the right not to have decisions made about them if these decisions are based solely on automated means. For example, this law would cover automatic processing which could lead to a person not being able to vote or being refused an online credit application. Automated decisions may only be used in such cases if they have legal authorisation and provide suitable safeguards, if there is no other way to achieve the outcome, or where a person has given their explicit consent.  
+
+The GDPR requires consent to be opt-in. It defines consent as “freely given, specific, informed and unambiguous” given by a “clear affirmative action.” It is not acceptable to assign consent through the data subject’s silence or by supplying “pre-ticked boxes.”
+
+
+
+WHAT ORGANISATIONS SHOULD DO TO ENSURE THAT THEY ARE BEING RESPONSIBLE WITH AI AND THE WIDER USE OF DATA IN GENERAL
+
+
+Organisations need to ensure that AI technologies are aligned with societal values, and that regulation  protects citizens as well as encouraging innovation. 
+
+To ensure ongoing public trust in their brand, organisations must consider the long-term reputational and cultural benefits of moving beyond just discussing high level principles on the ethical use of AI and focus on what this means in practice when they implement and deploy AI. 
+
+Organisations must think of AI technology in a holistic way – understanding where AI sits in the value chain and creating the right structures to ensure long-term governance by:
+
+- Establishing internal governance, for example by an objective review panel, that is diverse and that has the knowledge to understand the possible consequences of AI within its systems. A key success factor is leadership support and the power to hold leadership accountable.
+- Ensuring the right technical guardrails, creating quality assurance and governance to create traceability and auditability for AI systems. This is an important part of every organisation’s toolkit to allow operational and responsible AI to scale.
+- Investing more in their own AI education and training so that all stakeholders – both internal and external – are informed of AI capabilities as well as the pitfalls.
+
+(source - https://cloudblogs.microsoft.com/industry-blog/en-gb/cross-industry/2020/01/08/3-ways-organisations-can-use-ai-in-a-responsible-way/)
+
+Another challenge related to AI is that these systems are heavy-reliant on data, which incentivises companies to massively collect personal data, causing potential privacy issues in the process. Organisations need to properly manage sensitive data, ensuring sufficient security controls are in place.  Some people believe they need to have a mindset of 'when' a breach will happen, rather than 'if'.  Organisations need an effective 'sensitive data management system, for example:
+
+- Defining what the organisation deems as sensitive information.
+- Knowing where sensitive data is and who has access.
+- Classifying data in terms of importance and potential harm to your organization, if stolen.
+- Identifying who the data owner is.
+- Governing the accountability of data owners.
+- Determining if data is necessary or obsolete and if it poses unnecessary risk.
+- Eliminating data as soon it is no longer necessary or protecting it if it must exist.	
+(source : https://www.entrepreneur.com/article/242355)	 
+
+ 
